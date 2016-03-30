@@ -1,4 +1,4 @@
-package com.dteam.cookapi.domain;
+package com.dteam.cookapi.domain.recipe;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
@@ -17,7 +17,7 @@ public class Recipe {
     private Set<HashTag> hashTags;
     private LocalTime cookingTime;
     private String summary;
-    private Set<Ingredient> ingredients;
+    private Set<RecipeIngredient> recipeIngredients;
     private String recipeVideo;
     private String sourceLink;
     private int likes;
@@ -70,12 +70,12 @@ public class Recipe {
         this.summary = summary;
     }
 
-    public Set<Ingredient> getIngredients() {
-        return ingredients;
+    public Set<RecipeIngredient> getRecipeIngredients() {
+        return recipeIngredients;
     }
 
-    public void setIngredients(Set<Ingredient> ingredients) {
-        this.ingredients = ingredients;
+    public void setRecipeIngredients(Set<RecipeIngredient> recipeIngredients) {
+        this.recipeIngredients = recipeIngredients;
     }
 
     public String getRecipeVideo() {

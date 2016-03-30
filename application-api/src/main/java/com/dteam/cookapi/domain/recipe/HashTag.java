@@ -1,4 +1,4 @@
-package com.dteam.cookapi.domain;
+package com.dteam.cookapi.domain.recipe;
 
 /**
  * Created by vladlen on 16.29.3.

@@ -1,4 +1,4 @@
-package com.dteam.cookapi.domain;
+package com.dteam.cookapi.domain.recipe;
 
 import java.time.LocalTime;
 
