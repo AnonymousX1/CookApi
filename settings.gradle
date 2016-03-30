@@ -1,5 +1,5 @@
 rootProject.name = 'cookapi'
-include 'core'
-include 'cookapiDTOs'
+include 'application-api'
+include 'shared'
 include 'android'
 

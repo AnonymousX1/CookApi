@@ -5,13 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android.iml" group="android" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android_main.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android_main.iml" group="android" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android_test.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android_test.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application-api/application-api.iml" filepath="$PROJECT_DIR$/.idea/modules/application-api/application-api.iml" group="application-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application-api/application-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/application-api/application-api_main.iml" group="application-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application-api/application-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/application-api/application-api_test.iml" group="application-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cookapi.iml" filepath="$PROJECT_DIR$/.idea/modules/cookapi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cookapiDTOs/cookapiDTOs.iml" filepath="$PROJECT_DIR$/.idea/modules/cookapiDTOs/cookapiDTOs.iml" group="cookapiDTOs" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cookapiDTOs/cookapiDTOs_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cookapiDTOs/cookapiDTOs_main.iml" group="cookapiDTOs" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cookapiDTOs/cookapiDTOs_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cookapiDTOs/cookapiDTOs_test.iml" group="cookapiDTOs" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="core" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" group="core" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_main.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_test.iml" group="shared" />
     </modules>
   </component>
 </project>

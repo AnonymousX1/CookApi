@@ -13,7 +13,7 @@ import static java.util.Collections.singletonList;
 
 @Configuration
 @EnableMongoRepositories("com.dteam.cookapi.repository")
-public class ApplicationContextEventTestsAppConfig extends AbstractMongoConfiguration {
+public class MongoDBConfig extends AbstractMongoConfiguration {
 
     @Override
     public String getDatabaseName() {

@@ -21,12 +21,16 @@
     <bytecodeTargetLevel>
       <module name="android_main" target="1.8" />
       <module name="android_test" target="1.8" />
+      <module name="application-api_main" target="1.8" />
+      <module name="application-api_test" target="1.8" />
       <module name="cookapi_main" target="1.8" />
       <module name="cookapi_test" target="1.8" />
       <module name="cookapiDTOs_main" target="1.8" />
       <module name="cookapiDTOs_test" target="1.8" />
       <module name="core_main" target="1.8" />
       <module name="core_test" target="1.8" />
+      <module name="shared_main" target="1.8" />
+      <module name="shared_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

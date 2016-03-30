@@ -1,6 +1,5 @@
 package com.dteam.cookapi.config;
 
-import org.h2.server.web.WebServlet;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
@@ -30,9 +29,9 @@ public class SpringWebAppInitializer implements WebApplicationInitializer {
          * Servlet for embedded database H2
          * TODO: should be excluded in production
          */
-        ServletRegistration.Dynamic h2 =
-                servletContext.addServlet("h2Servlet", new WebServlet());
-        h2.setLoadOnStartup(2);
-        h2.addMapping("/database/*");
+//        ServletRegistration.Dynamic h2 =
+//                servletContext.addServlet("h2Servlet", new WebServlet());
+//        h2.setLoadOnStartup(2);
+//        h2.addMapping("/database/*");
     }
 }

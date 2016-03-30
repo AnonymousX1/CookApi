@@ -10,7 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="android_main" />
-    <orderEntry type="module" module-name="cookapiDTOs_main" />
+    <orderEntry type="module" module-name="shared_main" />
   </component>
   <component name="TestModuleProperties" production-module="android_main" />
 </module>
