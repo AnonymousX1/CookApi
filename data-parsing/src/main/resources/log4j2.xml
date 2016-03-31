@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" shutdownHook="disable">
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </Console>
+        <Console name="JPAMongoDb">
+            <PatternLayout pattern="%d{ABSOLUTE} %5p %40.40c:%4L - %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="WARN">
+            <AppenderRef ref="Console"/>
+        </Root>
+
+        <logger name="com.dteam.cookapi" level="WARN">
+            <AppenderRef ref="Console"/>
+        </logger>
+
+        <logger name="org.thymeleaf" level="WARN">
+            <AppenderRef ref="Console"/>
+        </logger>
+
+        <logger name="org.hibernate" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
+
+        <logger name="org.springframework.data.document.mongodb" level="DEBUG">
+            <AppenderRef ref="JPAMongoDb"/>
+        </logger>
+    </Loggers>
+</Configuration>

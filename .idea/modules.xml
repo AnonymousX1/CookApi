@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/application-api/application-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/application-api/application-api_main.iml" group="application-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/application-api/application-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/application-api/application-api_test.iml" group="application-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cookapi.iml" filepath="$PROJECT_DIR$/.idea/modules/cookapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-parsing/data-parsing.iml" filepath="$PROJECT_DIR$/.idea/modules/data-parsing/data-parsing.iml" group="data-parsing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-parsing/data-parsing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-parsing/data-parsing_main.iml" group="data-parsing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-parsing/data-parsing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/data-parsing/data-parsing_test.iml" group="data-parsing" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared.iml" group="shared" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_main.iml" group="shared" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_test.iml" group="shared" />
